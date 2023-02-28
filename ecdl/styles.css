@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&subset=latin,latin-ext);
 
 body{
-    font-family: serif;
+    font-family: Arial, sans-serif;
+    size: 16px;
 }
 
 /* men� st�luselemek */
@@ -29,11 +30,16 @@ table{
     margin: 20px auto;
 }
 table, th, td{
-    border: 0;
+    border: 1px solid #666;
 }
 
 /* �rlap st�luselemek */
-
+th{
+    padding: 1em;
+}
+td{
+    padding: 0.5em;
+}
 .mezosor{
     padding: 8px;
 }
@@ -62,6 +68,8 @@ table, th, td{
 .mezosor .mezo input[type='reset']{
     height: 30px;
     margin: 10px;
+    width: 120px;
+    background-color: #ccc;
 }
 .mezosor.z1{
     background-color: #fef6e7;
